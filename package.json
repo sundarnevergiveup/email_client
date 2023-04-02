@@ -1,0 +1,20 @@
+{
+  "name": "email-client",
+  "version": "1.0.0",
+  "description": "Simple Email Sending example",
+  "main": "index.js",
+  "scripts": {
+    "send": "node emailClient.js",
+  },
+  "keywords": [
+    "Email",
+    "Outlook",
+    "client"
+  ],
+  "author": "Sundar ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  }
+}
